@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>asd</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flat-ui.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header clear">
+        <div class="control">
+            <span class="c quit"><i class="fa fa-times"></i></span>
+            <span class="c mini"><i class="fa fa-minus"></i></span>
+            <span class="c maxi"><i class="fa fa-expand"></i></span>
+        </div>
+        <h1>EasyCard</h1>
+    </header>
+
+    <div class="wrapper">
+        
+        <div class="loading">
+            <!-- <i class="fa fa-circle-o-notch fa-spin"></i> -->
+            <i class="fa fa-spinner fa-spin"></i>
+        </div>
+
+        <div class="add-deck">
+            <a href="#fakelink" class="btn btn-block btn-lg btn-info"><i class="fa fa-plus"></i>&emsp;Add New Deck...</a>
+        </div>
+        <div class="show-decks">
+            <div class="deck">未命名0</div>
+            <div class="deck">未命名0</div>
+            <div class="deck">未命名1</div>
+            <div class="deck">未命名2</div>
+            <div class="deck">未命名3</div>
+        </div>
+
+        <div class="main clear">
+            <div class="sidebar fl">
+                <div class="add">
+                  <a class="btn btn-primary" href="#fakelink"><i class="fa fa-plus"></i>&ensp;Topic / Card</a>
+                </div>
+                <ul class="open">
+                    <li class="tit">
+                        <i class="fa fa-folder"></i><i class="fa fa-folder-open"></i>读书
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                </ul>
+                <ul class="open">
+                    <li class="tit">
+                        <i class="fa fa-folder"></i><i class="fa fa-folder-open"></i>读书
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                </ul>
+                <ul>
+                    <li class="tit">
+                        <i class="fa fa-folder"></i><i class="fa fa-folder-open"></i>读书
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                    <li>
+                        <i class="fa fa-file-text"></i>笔记1
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <input type="text" value="" placeHolder="Title" class="form-control title">
+                    <div class="cont">
+                        <textarea name="" placeHolder="Content" class="form-control text"></textarea>
+                    </div>
+                    <div class="msg">已保存。</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <button id="r" style="width: 60px;height: 60px;right: 0;top: 0;position: absolute;cursor: pointer;z-index: 5;"></button>
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/config.js"></script>
+</body>
+</html>
